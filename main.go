@@ -59,11 +59,7 @@ func twoArguments(boolean bool, stringy string) {
 	return
 }
 
-// func declares the functions intent
-// function name
-// argument inside the parantheses
-// return types at the end before the curly brace
-// inside the curly brace is the code for the function
+// Uses the Luhn algorithm to validate a credit card number
 func isLuhn(cardNumber string) bool {
 	var sum int
 	parity := len(cardNumber) % 2
